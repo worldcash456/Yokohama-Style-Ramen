@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f6f1e8;
+}
+
+.hero {
+  background: linear-gradient(135deg, #6f4e37, #b9703b);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+
+.hero h1 {
+  margin: 0 0 10px;
+  font-size: 2.2rem;
+}
+
+.subtitle {
+  margin: 0 auto;
+  max-width: 640px;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px 40px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.section-head h2 {
+  margin: 0;
+}
+
+.section-head p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #ffffff;
+}
+
+.ingredients-list,
+.steps-list {
+  padding-left: 20px;
+}
+
+.ingredients-list li,
+.steps-list li {
+  margin-bottom: 8px;
+}
+.hero-image {
+  display: block;
+  width: min(480px, 90%);
+  margin: 1.5rem auto 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.tips {
+  background: #fff8ef;
+}
+
+
+.intro,
+.tips {
+  grid-column: 1 / -1;
+}
+
+.card {
+  border-radius: 0;
+}
+
