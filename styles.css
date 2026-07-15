@@ -37,13 +37,7 @@ body {
   padding: 24px 20px 40px;
 }
 
-.card {
-  background: white;
-  padding: 24px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  margin-bottom: 20px;
-}
+
 
 .section-head {
   display: flex;
@@ -89,8 +83,3 @@ body {
 .tips {
   grid-column: 1 / -1;
 }
-
-.card {
-  border-radius: 0;
-}
-
